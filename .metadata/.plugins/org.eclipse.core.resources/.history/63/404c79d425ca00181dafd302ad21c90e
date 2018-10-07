@@ -1,0 +1,14 @@
+package com.practice.search;
+
+import java.util.List;
+
+public class LinearSearch<T> implements SearchInterface<T>{
+
+	@Override
+	public int search(List<T> list, T value) {
+
+		return list.stream().
+		
+	}
+	
+}

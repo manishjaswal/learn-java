@@ -1,0 +1,8 @@
+package com.practice.search;
+
+import java.util.List;
+
+public interface SearchInterface<T> {
+
+	void search(List<T> list, T value);
+}
